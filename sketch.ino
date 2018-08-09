@@ -1,3 +1,5 @@
+// Check out MakerAppliances.com!
+
 uint8_t octave = 4; // Change this for higher or lower pitch
 
 void setup() {
