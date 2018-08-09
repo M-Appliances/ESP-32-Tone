@@ -1,15 +1,23 @@
+uint8_t octave = 4; // Change this for higher or lower pitch
 
 void setup() {
   Serial.begin(115200);
   ledcSetup(0, 1E5, 12);
   ledcAttachPin(25, 0); // Change 25 to 26 as required
-
+  
+  ledcWriteNote(0, NOTE_C, octave);
+  delay(250);
+  ledcWriteNote(0, NOTE_E, octave);
+  delay(250);
+  ledcWriteNote(0, NOTE_G, octave);
+  delay(250);
+  ledcWrite(0, 0);
 }
 
 void loop() {
 
   char Number = 0;
-  uint8_t octave = 4; // Change this for higher or lower pitch
+
   if (Serial.available())
   {
     Number = Serial.read();
