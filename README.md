@@ -1,5 +1,5 @@
 # ESP-32-Tone
-A simple Arduino script to make an Espressif ESP32 send out a tone.
+A simple Arduino sketch to make an Espressif ESP32 send out a tone.
 
 Whilst you're here - check out what we do at [Maker Appliances](https://makerappliances.com)!
 
