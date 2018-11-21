@@ -10,3 +10,12 @@ Assisted after having tried to use the tone() function & getting the "tone was n
 ## How To Make The Script Work
 
 Type 1, 2 or 3 into the serial monitor & press send.  You should get an audible output.
+
+
+#Help Us
+
+We're makers & we're learning all the time. So...
+
+If you want to get more involved, have some epic ideas, or just want to see what we are up to, then take a look at our new MakerAppliances brand. MakerAppliances is our development workshop, aimed at helping makers develop their own connected devices!
+
+Check out what we are upto at... [Maker Appliances.com](https://makerappliances.com)!
